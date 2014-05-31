@@ -14,7 +14,7 @@ http://youtu.be/rIBktyVYpS0
   
 ## パッケージURL  
 パッケージURL  
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04ti0000000LHm4  
+https://login.salesforce.com/packaging/installPackage.apexp?p0=04ti0000000LHm9  
   
 ## デモ画面  
 ### 問題選択画面  
