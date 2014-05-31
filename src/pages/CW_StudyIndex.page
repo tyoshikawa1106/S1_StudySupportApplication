@@ -1,0 +1,25 @@
+<apex:page controller="CW_StudyListController" docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false">
+    <head>
+        <meta charset="utf-8"></meta>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"></meta>
+        <title>学習支援アプリケーション</title>
+        <!-- Ionic/CSS -->
+        <link href="{!URLFOR($Resource.CW_IonicLib, 'css/app.css')}" rel="stylesheet"></link>
+        <!-- Ionic/AngularJS -->
+        <script src="{!URLFOR($Resource.CW_IonicLib, 'js/ionic.bundle.js')}"></script>
+        <!-- JavaScript -->
+        <script src="{!$Resource.CW_StudyAppJs}"></script>
+        <script src="{!$Resource.CW_StudyControllersJs}"></script>
+        <script src="{!$Resource.CW_StudyServicesJs}"></script>
+    </head>
+    <body ng-app="sfdc1" animation="slide-left-right-ios7">
+        <!-- Navbar -->
+        <ion-nav-bar class="bar-positive nav-title-slide-ios7">
+            <ion-nav-back-button class="button-icon icon ion-chevron-left">
+                <apex:outputText value="Back" />
+            </ion-nav-back-button>
+        </ion-nav-bar>
+        <!-- NavView -->
+        <ion-nav-view></ion-nav-view>
+    </body>
+</apex:page>

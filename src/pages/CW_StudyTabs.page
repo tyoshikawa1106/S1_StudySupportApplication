@@ -1,0 +1,7 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false">
+    <ion-tabs class="tabs-positive tabs-icon-top">
+        <ion-tab title="勉強" icon="icon ion-edit" href="#/tab/studies">
+            <ion-nav-view name="tab-studies"></ion-nav-view>
+        </ion-tab>
+    </ion-tabs>
+</apex:page>

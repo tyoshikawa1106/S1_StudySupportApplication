@@ -1,0 +1,31 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="faIonic Freamwork Appslse"  applyHtmlTag="false">
+    <ion-view title="{{study.Name}}">
+        <ion-content has-header="true" padding="true">
+            <div ng-repeat="q in questions">
+                <div class="card">
+                    <div class="item item-text-wrap">
+                        <p>{{q.Content__c}}</p>
+                    </div>
+                    <div class="item item-text-wrap">
+                        <ul ng-repeat="c in q.Choices_QuestionIds__r">
+                            <li class="item item-checkbox">
+                                <label class="checkbox">
+                                    <input type="checkbox" ng-model="c.checked" />
+                                </label>
+                                {{c.Content__c}}
+                            </li>
+                        </ul>
+                        <div class="padding-top">
+                            <button ng-click="clickResult({{$index}})" class="button button-block button-stable">
+                                回答
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item item-text-wrap">
+                        <p>結果：{{q.result}}</p>
+                    </div>
+                </div>
+            </div>
+        </ion-content>
+    </ion-view>
+</apex:page>

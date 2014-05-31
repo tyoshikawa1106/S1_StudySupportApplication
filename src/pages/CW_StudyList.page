@@ -1,0 +1,11 @@
+<apex:page docType="html-5.0" showHeader="false" sidebar="false" standardStylesheets="false" applyBodyTag="false" applyHtmlTag="false">
+    <ion-view title="問題">
+        <ion-content ng-controller="CW_StudyListCtrl" class="has-header">
+           <ion-list>
+                <ion-item ng-repeat="study in studies" href="#/tab/studies/{{study.Id}}">
+                    {{study.Name}}
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-view>
+</apex:page>
