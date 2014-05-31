@@ -9,11 +9,11 @@ Crowdハッカソン①
 https://crowdworks.jp/public/jobs/98704  
   
 ## デモ動画  
-ハッカソンチャレンジ - 学習支援アプリケーション in Salesforce1モバイル 
+ハッカソンチャレンジ - 学習支援アプリケーション in Salesforce1モバイル  
 http://youtu.be/rIBktyVYpS0  
   
 ## パッケージURL  
-学習支援アプリケーション in Salesforce1モバイル  
+パッケージURL  
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04ti0000000LHm4  
   
 ## デモ画面  
