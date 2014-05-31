@@ -1,7 +1,7 @@
 S1_StudySupportApplication
 ==========================
 
-2014年05月のCrowdハッカソンイベントのために作成したSalesforce1モバイルアプリケーションです。IonicFrameworkをつかったアプリで、処理はAngularJSで行っています。SalesforceへのデータアクセスはremoteActionで行いました。  
+2014年05月のCrowdハッカソンイベントのために作成したSalesforce1モバイルアプリケーションです。IonicFrameworkをつかったアプリで処理はAngularJSで行っています。SalesforceへのデータアクセスはremoteActionで行いました。  
   
 チェックをつけて回答ボタンを押すだけのシンプルな機能なのでスマートフォンやタブレットなどで移動時間などに気軽に勉強できます。
   
