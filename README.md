@@ -8,7 +8,7 @@ Crowdハッカソンイベント用に作成したSalesforce1モバイルアプ�
 Crowdハッカソン①  
 https://crowdworks.jp/public/jobs/98704  
   
-※デモデータはSalesforce.com認定試験StudyGuidから引用しています。
+※デモデータはSalesforce.com認定試験StudyGuideから引用しています。
   
 ## デモ動画  
 ハッカソンチャレンジ - 学習支援アプリケーション in Salesforce1モバイル  
